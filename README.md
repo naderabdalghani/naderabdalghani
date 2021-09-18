@@ -8,3 +8,4 @@
 [![ResearchGate Badge](https://img.shields.io/badge/-ResearchGate-00CCBB?style=flat&logo=ResearchGate&logoColor=white&link=https://bit.ly/3EpH4Dr)](https://bit.ly/3EpH4Dr)
 
 Greetings! I'm a fresh computer engineering graduate. Currently freelancing and looking for a full-time opportunity, preferably a remote one.
+![](https://hit.yhype.me/github/profile?user_id=33901325)
