@@ -1,5 +1,3 @@
-# Hey :)
-
 [![Résumé Badge](https://img.shields.io/badge/-Résumé-blue?style=flat&logo=giphy&logoColor=white&link=resume/resume.pdf)](resume/resume.pdf)
 [![Email Badge](https://img.shields.io/badge/-Email-DB3552?style=flat&logo=Minutemailer&logoColor=white&link=mailto:naderabdalghani@outlook.com)](mailto:naderabdalghani@outlook.com)
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-2867B2?style=flat&logo=LinkedIn&logoColor=white&link=https://bit.ly/3BlR9P1)](https://bit.ly/3BlR9P1)
