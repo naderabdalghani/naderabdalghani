@@ -196,10 +196,16 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 	\notblank{#3}{\toggletrue{centertitledefined}}{}
 	\notblank{#4}{\toggletrue{righttitledefined}}{}
 	\ifboolexpr{togl {lefttitledefined} or togl {centertitledefined} or togl {righttitledefined}}{
-		\begin{tabu} to 1\textwidth { X[l,p] X[c,p] X[r,p] }
+		\iftoggle{centertitledefined}{
+			% Center title defined, keep fixed width for right column
+			\begin{tabu} to 1\textwidth { X[l,p] X[c,p] X[r,p] }
+		}{
+			% Center title NOT defined, make right column unrestricted
+			\begin{tabu} to 1\textwidth { X[l,p] X[c,p] r }
+		}
 			\textbf{#2} & \textbf{#3} & \textbf{#4} \\
 		\end{tabu}
-		% Add space according to the specidied number of lines
+		% Add space according to the specified number of lines
 		\ifnumcomp{#1}{=}{1}{\vspace*{\aftersinglelinesubsectionheaderspace}}{
 			\ifnumcomp{#1}{=}{2}{\vspace*{\afterdoublelinesubsectionheaderspace}}{
 				\vspace*{\aftermultilinesubsectionheaderspace}
